@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="133px" height="65px" viewBox="0 0 133 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>非会员</title>
+    <defs>
+        <filter x="-42.2%" y="-32.8%" width="184.4%" height="193.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0886145105 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="第八版方案-切图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="PingFangSC-Semibold, PingFang SC" font-size="40" font-weight="500" letter-spacing="1.25" opacity="0.182733445">
+        <g id="收派端_3c" transform="translate(-10.000000, -55.000000)" fill="#C0C8D8">
+            <g id="编组" filter="url(#filter-1)" transform="translate(24.000000, 64.000000)">
+                <text id="非会员">
+                    <tspan x="-12" y="36">非会员</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

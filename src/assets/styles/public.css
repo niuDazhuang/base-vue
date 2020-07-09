@@ -1,0 +1,89 @@
+html {
+  font-family: PingFangSC-Regular, "Microsoft Yahei";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #F2F2F2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+ul, li{
+	list-style: none;
+}
+a, button, input, img {
+  color: inherit;
+  outline:none;
+  text-decoration: none;
+}
+input, textarea {
+  background: none;
+  border: none;
+}
+
+/* media query make rem works */
+@media screen and (min-width:320px) and (max-width:359.9px){ html{font-size:85px;} }
+@media screen and (min-width:360px) and (max-width:374.9px){ html{font-size:96px;} }
+@media screen and (min-width:375px) and (max-width:413.9px){ html{font-size:100px;} }
+@media screen and (min-width:414px) and (max-width:479.9px){ html{font-size:110px;} }
+@media screen and (min-width:480px) and (max-width:567.9px){ html{font-size:128px;} }
+@media screen and (min-width:568px) and (max-width:639.9px){ html{font-size:151px;} }
+@media screen and (min-width:640px){ html{font-size:160px;} }
+
+html, body {
+  min-height: 100%;
+  background: #FDFDFD;
+}
+*[placeholder]:empty:before,
+*[contenteditable = 'true']:empty:before {
+  content: attr(placeholder);
+  color: #ccc;
+}
+.filter-blur { filter: blur(2px); }
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .3s
+}
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}
+
+.border-1px {
+  border: 1px solid;
+}
+/* 一像素底框: 颜色不一样就在自己的组件里样式覆盖 */
+.border-top-1px,
+.border-bottom-1px,
+.border-right-1px,
+.border-left-1px {
+  position: relative;
+}
+.border-top-1px::after,
+.border-bottom-1px::after,
+.border-right-1px::after,
+.border-left-1px::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200%;
+  height: 200%;
+  transform-origin: left top;
+  transform: scale(0.5);
+  pointer-events: none; /* 防止点击触发 */
+}
+.border-top-1px::after{
+  border-top: 1px solid #EAEAEA;
+}
+.border-bottom-1px::after{
+  border-bottom: 1px solid #e6e6e6;
+}
+.border-right-1px::after{
+  border-right: 1px solid #999;
+}
+.border-left-1px::after{
+  border-left: 1px solid #D8D8D8;
+}

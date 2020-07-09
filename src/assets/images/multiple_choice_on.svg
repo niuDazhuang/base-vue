@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>multiple choice_on</title>
+    <g id="multiple-choice_on" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-264" stroke="#F5A623" stroke-width="1.6" fill-opacity="0.0432419143" fill="#F5A623" x="1.8" y="1.8" width="12.4" height="12.4" rx="3"></rect>
+        <polygon id="check-icon" fill="#F5A623" points="3 8.74418605 6.38722716 12 13 5.64341085 11.8361816 4.16894531 6.38722716 9.35327148 4.46362305 7.26245117"></polygon>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+i {
+  display: inline-block;
+  font-style: normal;
+  color: #333;
+  &.arrow-left {
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(-135deg);
+  }
+  &.arrow-right {
+    width: 10px;
+    height: 10px;
+    color: #999;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    transform: rotate(45deg);
+  }
+  &.close {
+    font-size: 24px;
+    font-weight: bold;
+    &::after {
+      content: '×';
+    }
+  }
+}
